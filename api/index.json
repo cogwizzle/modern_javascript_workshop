@@ -1,0 +1,1321 @@
+{
+  "schedule": {
+    "conference": {
+      "title": "JazzCon.Tech 2018",
+      "start": "2018-03-21",
+      "end": "2018-03-23",
+      "daysCount": 3,
+      "timeslot_duration": "00:10",
+      "days": [
+        {
+          "index": 0,
+          "date": "2018-03-21",
+          "day_start": "2018-03-21T08:00:00-04:00",
+          "day_end": "2018-03-21T23:00:00-04:00",
+          "rooms": {
+            "Workshop": [
+              {
+                "id": 2052,
+                "date": "2018-03-21T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "08:00",
+                "room": "Workshop",
+                "title": "Unlock: Accessibility and Conversational UI Workshop",
+                "track": "Workshop",
+                "type": "workshop",
+                "abstract": "Mobile   web   traffic   has   outpaced   desktop   traffic   since   2016,   and   Google   now   uses   your   mobile website   for   search   results   and   SEO.   What   is   your   \"Mobile   First\"   and   \"Offline   First\"   architectural strategy   to   address   this?\r\nMobile   web   pages,   on   average,   take   22   seconds   to   load.   The   average   user   will   wait   only   a second   or   two   before   they   abandon   your   website   for   the   next   search   result   in   the   list.   What   is your   plan   to   maximize   web   performance?\r\nGartner   predicts   that   30%   of   all   computer   interaction   will   take   place   by   voice   in   2018.   Beyond Alexa,   Siri,   and   Cortana,   the   1.1   billion   people   worldwide   with   a   disability   expect   to   be   able   to fully   use   your   website,   including   the   253   million   users   with   a   vision   impairment,   and   the   108 million   users   with   color   blindness.   Is   your   architecture   ready   to   handle   a   conversational   UI?   How do   you   intend   to   go   beyond   text   and   images   to   fully   engage   all   of   your   users'   senses?\r\nIf   you   are   ready   to   move   past   the   superficial   \"framework   of   the   week\"   hype   and   unlock   the   full potential   of   the   web   platform   (as   well   as   your   own   full   potential   as   a   web   developer),   this full-day,   hands-on,   lab-driven   workshop   is   for   you.\r\n*   We'll   focus   on   clean,   maintainable,   performant,   semantic,   standards-based,   framework-free code.\r\n*   We'll   use   a   healthy   balance   of   HTML,   CSS,   JavaScript,   and   Web   Components.\r\n*   We   won't   waste   your   time   with   toy   apps   like   ToDo   lists   or   Twitter   clones   --   we'll   build   a   fully Responsive,   Accessible,   Internationalized,   Offline-Ready   website   for   a   fictitious   software conference.\r\nUnlock   the   full   potential   of   the   web   platform.\r\nUnlock   your   website   for   all   devices   and   all   users.\r\nUnlock   your   future   as   a   standards-based   web   developer.\r\nUnlock.",
+                "persons": [
+                  {
+                    "id": 1146,
+                    "full_public_name": "Scott Davis",
+                    "abstract": "Scott Davis is a principal engineer with ThoughtWorks, where he focuses on the leading-edge, innovative, emerging, and nontraditional aspects of web development, such as serverless web apps, mobile web apps (responsive PWAs), HTML5-based smart TV apps, conversational UIs (like Siri and Alexa), and using web technologies to build IoT solutions. He is also the founder of ThirstyHead.com, a Denver-based training and software development consultancy. Scott has been writing about web development for over 10 years. His books include Getting Started with Grails, Groovy Recipes, GIS for Web Developers, The Google Maps API: Adding Where to Your Web Applications, and JBoss at Work. He is also the author of several popular article series at IBM developerWorks, including Mastering MEAN, Mastering Grails, and Practically Groovy. His videos include Architecture of the MEAN Stack, Responsive Mobile Architecture, and On the Road to Angular 2. Scott is also the cofounder of the Denver HTML5 User Group.\r\n\r\n",
+                    "twitter_name": "scottdavis99",
+                    "avatar_path": "/system/avatars/1146/large/__user_132422.jpg?1513096745"
+                  }
+                ]
+              }
+            ],
+            "React (Orleans)": [
+              {
+                "id": 2069,
+                "date": "2018-03-21T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "08:00",
+                "room": "React (Orleans)",
+                "title": "Next-level React Workshop: React Router, Redux and more hands-on",
+                "track": "Workshop",
+                "type": "workshop",
+                "abstract": "This is a full-day workshop on intermediate to advanced topics on building real-world ReactJS Web applications. Basic knowledge of React is required for this workshop. We will start by learning about the core fundamentals of Redux including pure functions, actions, reducers, the store, and subscriptions. Then we will integration Redux into a React app, learning about components vs containers, accessing the store, async actions, middleware, and thunks. Next, we will layer in React Router 4, learning about params, queries, and redirects; prompt before navigation, and scrollToTop. Time permitting and based on audience preferences, we can learn about using component libraries, styling, forms and validations, and more!",
+                "persons": [
+                  {
+                    "id": 991,
+                    "full_public_name": "Sia Karamalegos",
+                    "abstract": "Sia Karamalegos is the founder and lead developer Clio + Calliope, a mobile and web design and development firm based in New Orleans. She has over 15 years of experience in technology, strategy, project management, and operations across multiple industries, especially high-tech and education. She also teaches and writes curriculum. Sia was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana.",
+                    "twitter_name": "thegreengreek",
+                    "avatar_path": "/system/avatars/991/large/headshot.gif?1509394752"
+                  }
+                ]
+              }
+            ],
+            "Angular (Mardi Gras)": [
+              {
+                "id": 1936,
+                "date": "2018-03-21T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "06:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Angular 5 Skyfall",
+                "track": "Workshop",
+                "type": "workshop",
+                "abstract": "Angular is a robust platform and many products relay on its foundation. Teams have now learnt about best practices and tooling.\r\nIn this workshop you will learn about the less known areas of Angular so you can take your skills and your team to the next level!",
+                "persons": [
+                  {
+                    "id": 480,
+                    "full_public_name": "Gerard Sans",
+                    "abstract": "Community leader. Google Developer Expert\r\n",
+                    "twitter_name": "@gerardsans",
+                    "avatar_path": "/system/avatars/480/large/gerardsans.jpg?1510698190"
+                  }
+                ]
+              }
+            ],
+            "Core JS (Main Auditorium)": [
+              {
+                "id": 1803,
+                "date": "2018-03-21T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "08:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Build Web Apps with Elm Workshop",
+                "track": "Workshop",
+                "type": "workshop",
+                "abstract": "No runtime exceptions, no \"undefined is not a function\", no JavaScript fatigue.  Elm is a functional programming language that compiles to JavaScript for building safe front-end applications. Get hands-on experience with Elm and quickly learn how to build your own Elm applications with the Elm architecture.  Along the way you will learn Elm's minimal syntax, functional programming concepts, and static types.",
+                "persons": [
+                  {
+                    "id": 129,
+                    "full_public_name": "Jeremy Fairbank",
+                    "abstract": "Jeremy is a web developer with a master's degree in computer science. He has many years of experience in front-end development and full-stack development, working heavily with JavaScript and Ruby. He has presented numerous times at conferences such as Fluent Conf and RailsConf. He is passionate about front-end development and its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers.",
+                    "twitter_name": "elpapapollo",
+                    "avatar_path": "/system/avatars/129/large/bio-2017-4.jpg?1492860481"
+                  }
+                ]
+              }
+            ],
+            "Design and UX (Bayou 1-2)": [
+              {
+                "id": 1927,
+                "date": "2018-03-21T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "08:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Functional JavaScript With Ramda Workshop",
+                "track": "Workshop",
+                "type": "workshop",
+                "abstract": "Functional JavaScript with Ramda \r\nUsed properly, functional programming means cleaner code, easier maintenance, and simpler testing. But most of us will never use it. Why? Because functional programming is usually explained with jargon, complex math, and some nonsense about monads or whatever. And math is hard, so most of us run away screaming. But here's the thing: functional programming doesn't actually require math. This workshop will teach you how to get the benefits of functional programming today \u2014 no math required.",
+                "persons": [
+                  {
+                    "id": 564,
+                    "full_public_name": "Jason Lengstorf",
+                    "abstract": "<p>Jason Lengstorf is a developer, designer, author, and friendly bear. He's worked in nearly every role in an agency, from DevOps to sales, and uses his 14+ years of experience to offer a unique, cross-functional approach to solving complex problems. He lives in Austin, TX, spends most of his disposable income on food and travel, and can often be spotted in the forest foraging for nuts and berries.</p>",
+                    "twitter_name": "jlengstorf",
+                    "avatar_path": "/system/avatars/564/large/jason-thumb.jpg?1493494993"
+                  }
+                ]
+              }
+            ],
+            "Web-Html-Css (Bayou 3-4)": [
+              {
+                "id": 2068,
+                "date": "2018-03-21T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "08:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "React Native Workshop",
+                "track": "Workshop",
+                "type": "workshop",
+                "abstract": "A full day workshop on React Native - leverage your Web programming skills to build native apps!",
+                "persons": [
+                  {
+                    "id": 813,
+                    "full_public_name": "Frank von Hoven",
+                    "abstract": "Frank is a mobile software engineer specializing in React Native and is the Executive Editor of the React Native Newsletter.",
+                    "twitter_name": "infinite_frank",
+                    "avatar_path": "/system/avatars/813/large/Frank-avatar-small2.jpg?1519797021"
+                  },
+                  {
+                    "id": 471,
+                    "full_public_name": "Gant Laborde",
+                    "abstract": "Inspirational technology strategist.  Tinkerer at heart, but with a passion to ship a quality product at the end.  Love leadership and teaching has driven me to many conferences worldwide.",
+                    "twitter_name": "gantlaborde",
+                    "avatar_path": "/system/avatars/471/large/gant-face.jpg?1484858603"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "date": "2018-03-22",
+          "day_start": "2018-03-22T08:00:00-04:00",
+          "day_end": "2018-03-22T23:00:00-04:00",
+          "rooms": {
+            "Workshop": [],
+            "React (Orleans)": [
+              {
+                "id": 2070,
+                "date": "2018-03-22T08:00:00-04:00",
+                "start": "08:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Registration",
+                "track": null,
+                "type": "",
+                "abstract": "",
+                "persons": []
+              },
+              {
+                "id": 2053,
+                "date": "2018-03-22T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "It's Spelled 'Accessibility', not 'Disability'",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Ten years ago -- in the pre-iPhone days -- many companies questioned the need for a mobile-friendly website. Last year, mobile internet traffic surpassed desktop traffic, and many of those same companies are still struggling to catch up.\r\n\r\nWhat does this have to do with Accessibility (\"a11y\" for short)? The World Wide Web Consortium says, \"Accessibility overlaps with other best practices such as mobile web design, device independence, multi-modal interaction, usability, design for older users, and search engine optimization (SEO).\" They go on to say, \"Users of mobile devices and people with disabilities experience similar barriers when interacting with web content.\"\r\n\r\nWhat if you could increase your website's SEO, improve your mobile web design, and get a head start on the coming Conversational UI revolution (\"Hello Alexa, Siri, Google, and Cortana\") through a renewed focus on Accessibility? And what if, while you did it, you increased your user base by potentially 10-20% by making it more accessible to disabled users (1.1 billion people worldwide; 18% of the US population)?\r\n\r\nCome hear Scott Davis (Principal Engineer, ThoughtWorks) explain how Accessibility in 2018 should be just as important to you as a mobile design strategy was ten years ago.",
+                "persons": [
+                  {
+                    "id": 1146,
+                    "full_public_name": "Scott Davis",
+                    "abstract": "Scott Davis is a principal engineer with ThoughtWorks, where he focuses on the leading-edge, innovative, emerging, and nontraditional aspects of web development, such as serverless web apps, mobile web apps (responsive PWAs), HTML5-based smart TV apps, conversational UIs (like Siri and Alexa), and using web technologies to build IoT solutions. He is also the founder of ThirstyHead.com, a Denver-based training and software development consultancy. Scott has been writing about web development for over 10 years. His books include Getting Started with Grails, Groovy Recipes, GIS for Web Developers, The Google Maps API: Adding Where to Your Web Applications, and JBoss at Work. He is also the author of several popular article series at IBM developerWorks, including Mastering MEAN, Mastering Grails, and Practically Groovy. His videos include Architecture of the MEAN Stack, Responsive Mobile Architecture, and On the Road to Angular 2. Scott is also the cofounder of the Denver HTML5 User Group.\r\n\r\n",
+                    "twitter_name": "scottdavis99",
+                    "avatar_path": "/system/avatars/1146/large/__user_132422.jpg?1513096745"
+                  }
+                ]
+              },
+              {
+                "id": 1810,
+                "date": "2018-03-22T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Resilient React.js - building apps with a functional approach",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "As our apps grow in complexity and power, how do we architect things to maintain our sanity? One solution is to apply a more functional approach to building our apps. In this session you will learn how to use React.js with a functional style and what advantages that brings with it.",
+                "persons": [
+                  {
+                    "id": 464,
+                    "full_public_name": "Jeff Barczewski",
+                    "abstract": "Jeff Barczewski has been a software engineer, architect, and instructor for over 25 years. He is the founder of CodeWinds and Inspired Horizons, a training and consulting firm based in St. Louis, MO. He has taught workshops at conferences such as JazzCon.tech, Strange Loop, JSConf, and Nodevember. He is the author of many open source projects including redux-logic, pkglink, and bench-rest. He is married, father of one, Catholic, who enjoys snow skiing in the Rockies.\r\n\r\n",
+                    "twitter_name": "jeffbski",
+                    "avatar_path": "/system/avatars/464/large/jeff-strangeloop-DSC_7593-cropped-corrected.jpg?1497362224"
+                  }
+                ]
+              },
+              {
+                "id": 1649,
+                "date": "2018-03-22T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Redux: Architecting and scaling a new web app at The New York Times",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "In under a year, we scaled NYT Watching from being a brand new React web app to more than a million users per month. Our approach to Redux was a key part of this success, enabling us to manage complex data relationships in an iterative and functional way. In this talk, I will share our approach to implementing Redux for our app \u2013 what worked, what didn't, and the many tips and tricks that we\u2019ve learned along the way.\r\nKey takeaways: \r\n- Practical examples of how to organize and update data in your apps using actions and reducers \r\n- Why you should use containers to separate your data logic from your views \r\n- How to increase performance while simplifying data relationships with the use of selectors \r\n- How to deal with different product requirements (specs from Advertising, anyone?) and keep pesky business logic out of your views \r\n- How to integrate query parameters into Redux, and the benefits of doing so\r\n\r\nExpect this presentation to use more boxes and arrows than code. I'll use real-world examples based on the challenges my team at The New York Times has faced in the past two years as we used Redux to manage and scale an increasingly complex app.",
+                "persons": [
+                  {
+                    "id": 892,
+                    "full_public_name": "Juan Carlos Montemayor Elosua",
+                    "abstract": "JC is a Senior Engineer in The New York Times' New Products team, where he leads the development of the NYT Cooking iOS app. Previously he led the development of NYT Watching (TV and movie recommendations app) and NYT Now (a now-retired news app). JC has a BS in Computer Science degree from the Tufts University School of Engineering. Outside of work, he is an opera producer, a classically trained tenor, \"studying\" for a sommelier certification, and is always looking for new things to learn and do.",
+                    "twitter_name": "norsemelon",
+                    "avatar_path": "/system/avatars/892/large/jc_headshot_1x1.jpg?1512413759"
+                  }
+                ]
+              },
+              {
+                "id": 1821,
+                "date": "2018-03-22T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Effective React Testing",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Building applications with React is a cinch these days. But what about testing? In this talk, learn how to create an effective plan for testing a React and Redux application from the ground up. You will learn about the testing framework Jest, how to unit test React components with logic, the magic and trade-offs of snapshot testing, how to test Redux, and how to end-to-end test your entire application. You will leave this talk ready to effectively test your React applications.",
+                "persons": [
+                  {
+                    "id": 129,
+                    "full_public_name": "Jeremy Fairbank",
+                    "abstract": "Jeremy is a web developer with a master's degree in computer science. He has many years of experience in front-end development and full-stack development, working heavily with JavaScript and Ruby. He has presented numerous times at conferences such as Fluent Conf and RailsConf. He is passionate about front-end development and its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers.",
+                    "twitter_name": "elpapapollo",
+                    "avatar_path": "/system/avatars/129/large/bio-2017-4.jpg?1492860481"
+                  }
+                ]
+              },
+              {
+                "id": 1807,
+                "date": "2018-03-22T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Lessons from the trenches - Designing Bulletproof React/Redux Apps",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "How do we design bulletproof apps in this rapid paced modern world? Our apps need to be able to adapt to ever changing requirements and unplanned features. How do we effectively structure our app that it will stand the test of time? Learn effective ways of dealing with business logic.",
+                "persons": [
+                  {
+                    "id": 464,
+                    "full_public_name": "Jeff Barczewski",
+                    "abstract": "Jeff Barczewski has been a software engineer, architect, and instructor for over 25 years. He is the founder of CodeWinds and Inspired Horizons, a training and consulting firm based in St. Louis, MO. He has taught workshops at conferences such as JazzCon.tech, Strange Loop, JSConf, and Nodevember. He is the author of many open source projects including redux-logic, pkglink, and bench-rest. He is married, father of one, Catholic, who enjoys snow skiing in the Rockies.\r\n\r\n",
+                    "twitter_name": "jeffbski",
+                    "avatar_path": "/system/avatars/464/large/jeff-strangeloop-DSC_7593-cropped-corrected.jpg?1497362224"
+                  }
+                ]
+              },
+              {
+                "id": 1417,
+                "date": "2018-03-22T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Express yourself with Typescript and React",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Express has long been a tool for building high performance node.js applications.  Types will ensure you have a stable, and maintainable app with less unit tests, and React rendering makes it easy to share components between the front end and the back end.",
+                "persons": [
+                  {
+                    "id": 476,
+                    "full_public_name": "Jonathan Creamer",
+                    "abstract": "I've been working with front end technologies since I was 13. JavaScript is my passion, as is helping and getting to know other developers in the community.",
+                    "twitter_name": "jcreamer898",
+                    "avatar_path": "/system/avatars/476/large/profile.jpg?1484283908"
+                  }
+                ]
+              },
+              {
+                "id": 1412,
+                "date": "2018-03-22T16:40:00-04:00",
+                "start": "16:40",
+                "duration": "00:30",
+                "room": "React (Orleans)",
+                "title": "How I Cut My Working Hours in Half and Somehow Managed to Get More Done",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Three hours. In an average eight-hour workday, the average developer will get maybe three hours of actual work done. Between distractions, interruptions, overloaded schedules, and tight deadlines, it can feel like we'll never get anything done. In this talk, Jason Lengstorf shares his story of grinding out 70\u201390 hours a week, and the surprisingly simple changes he made to turbocharge his productivity, earn more money, and work an average of 37 hours a week in 2016 \u2014 while also rediscovering life outside of work.",
+                "persons": [
+                  {
+                    "id": 564,
+                    "full_public_name": "Jason Lengstorf",
+                    "abstract": "<p>Jason Lengstorf is a developer, designer, author, and friendly bear. He's worked in nearly every role in an agency, from DevOps to sales, and uses his 14+ years of experience to offer a unique, cross-functional approach to solving complex problems. He lives in Austin, TX, spends most of his disposable income on food and travel, and can often be spotted in the forest foraging for nuts and berries.</p>",
+                    "twitter_name": "jlengstorf",
+                    "avatar_path": "/system/avatars/564/large/jason-thumb.jpg?1493494993"
+                  }
+                ]
+              },
+              {
+                "id": 2071,
+                "date": "2018-03-22T17:10:00-04:00",
+                "start": "17:10",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Conference Reception (live Jazz Band!)",
+                "track": null,
+                "type": "",
+                "abstract": "",
+                "persons": []
+              }
+            ],
+            "Angular (Mardi Gras)": [
+              {
+                "id": 1829,
+                "date": "2018-03-22T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "What's New in TypeScript?",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "TypeScript, an open source project, is used to build several key frameworks like AngularJS. This session will cover the latest features of TypeScript 2.x, including future ECMAScript proposals, support for Angular, React/JSX and Node, and the type system capabilities.  Doris will demonstrate how TypeScript enables you to leverage features from the current and future of JavaScript while increasing the productivity of JavaScript development for your existing/future projects. ",
+                "persons": [
+                  {
+                    "id": 236,
+                    "full_public_name": "Dr. Doris Chen",
+                    "abstract": "Dr. Doris Chen is a Senior Technology Evangelist at Microsoft, specialized in web technologies (web performance tuning, mobile web, HTML5, JavaScript, TypeScript and Java).  \r\nDoris has over 18 years of experience in the software industry working in several open source web tier technologies, Java platform, .NET and distributed computing technologies. She speaks at numerous international conferences and user groups including O\u2019Reilly OSCON, Fluent, Dev Nexus, PHP, HTML5 Dev Conference, WebVisions,  JavaOne, SD Forum, and worldwide User Groups. Doris works very closely to create and foster the open source community around Java, NetBeans, Glassfish, and related technologies. Before joining Microsoft, Doris Chen was a Technology Evangelist at Sun Microsystems.\r\nDoris received her Ph.D. from the University of California at Los Angeles (UCLA) in computer engineering, specializing in medical informatics.\r\n",
+                    "twitter_name": "@doristchen",
+                    "avatar_path": "/system/avatars/236/large/DC.png?1512950439"
+                  }
+                ]
+              },
+              {
+                "id": 1541,
+                "date": "2018-03-22T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "ngUpgrade",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "Angular 2 has been out for some time and now Angular 4, 5, and beyond have been announced but lots of people are still using Angular 1. In this talk, we're going to cover the tangible steps you can take to upgrade your app. We'll walk through the process on a small application and show real examples of how to accomplish this feat.",
+                "persons": [
+                  {
+                    "id": 446,
+                    "full_public_name": "Dustin Goodman",
+                    "abstract": "Hacker, Gamer, Musician, Technologist, Mentor, Education Enthusiast, Blogger ",
+                    "twitter_name": "dustinsgoodman",
+                    "avatar_path": "/system/avatars/446/large/headshot.jpg?1515023711"
+                  }
+                ]
+              },
+              {
+                "id": 1772,
+                "date": "2018-03-22T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Crash Course in Ionic + AngularJS",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "Ionic is a great tool for building hybrid mobile apps and AngularJS is a great JavaScript framework that plays very nicely with Ionic.  In this talk we'll go over the basics of getting started with AngularJS+Ionic.  We'll look at some real code from each of the 2 libraries and see what all is involved in building a hybrid mobile application. We will finish our journey with a real-life Ionic app presentation powered by RESTFul services.",
+                "persons": [
+                  {
+                    "id": 960,
+                    "full_public_name": "Nolan Erck",
+                    "abstract": "Nolan Erck has been developing software for 19 years, working on a variety of projects from video games to intranets to and web and mobile apps big and small.  As a software consultant for the last 10 years, Nolan has worked on projects for CycleGear, Intuit, Hawaiian Electric Company, ZenDesk, Open Table, and others.  Nolan also manages the SacInteractive User Group, teaches classes on aspects of software development, and regularly gives presentations at conferences and user groups across the country. \r\n",
+                    "twitter_name": "southofshasta",
+                    "avatar_path": "/system/avatars/960/large/Headshotbw640x480.jpg?1512586073"
+                  }
+                ]
+              },
+              {
+                "id": 2027,
+                "date": "2018-03-22T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Leveraging the Angular CLI - from development to production",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "Leveraging the Angular CLI - from development to production",
+                "persons": [
+                  {
+                    "id": 115,
+                    "full_public_name": "Raju Gandhi",
+                    "abstract": "I am a Software Craftsman with over a decade of experience building Web Applications and Enterprise Software and I love to build great software",
+                    "twitter_name": "looselytyped",
+                    "avatar_path": "/system/avatars/115/large/me2_400x400.png?1409064068"
+                  }
+                ]
+              },
+              {
+                "id": 2141,
+                "date": "2018-03-22T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Connecting the Dots: How Angular Components Work Together",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "Picking up a new framework with a new design paradigm can be daunting. You hear familiar names being tossed around (Components, Libraries, Objects), but they're being used in new and mysterious ways. In this talk we'll cover what some of these pieces are, how they're different, how to use them properly, and, most importantly, how they fit together as pieces of a greater whole. Come see why the Angular way of doing things is awesome (and easy).",
+                "persons": [
+                  {
+                    "id": 767,
+                    "full_public_name": "Scott McAllister",
+                    "abstract": "Scott McAllister has been building web applications in several industries for over a decade. He joined Smartsheet several years ago, building integrations with the Smartsheet API using languages like Java, Node.js, and Python. Now he's helping others learn about a wide range of web technologies. When he's not coding, writing or speaking he enjoys long walks with his wife, skipping rocks with his kids, and is happy whenever Real Salt Lake can manage a win.",
+                    "twitter_name": "stmcallister",
+                    "avatar_path": "/system/avatars/767/large/Scott-McAllister-1400.jpg?1519849693"
+                  }
+                ]
+              }
+            ],
+            "Core JS (Main Auditorium)": [
+              {
+                "id": 1721,
+                "date": "2018-03-22T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Building PWAs for People Terrified of PWAs",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "A simple, gentle, non-terrifying look at PWAs.\r\nIn this talk, I'll introduce people to Progressive Web Apps (PWAs). I'll cover what the term means, what kind of work is involved, and practical tips for building PWAs. I'm new to the topic myself, so my goal here is to help save you from the fear, and pain, I went through! (Trust me though - it isn't nearly as scary as you think!)",
+                "persons": [
+                  {
+                    "id": 329,
+                    "full_public_name": "Raymond Camden",
+                    "abstract": "Raymond Camden is a developer advocate for IBM. His work focuses on LoopBack, serverless, hybrid mobile development, Node.js, HTML5, and web standards in general. He's a published author and presents at conferences and user groups on a variety of topics. Raymond can be reached at his blog (www.raymondcamden.com), @raymondcamden on Twitter, or via email at raymondcamden@gmail.com.\r\n",
+                    "twitter_name": "raymondcamden",
+                    "avatar_path": "/system/avatars/329/large/ray3_2017.jpg?1507836294"
+                  }
+                ]
+              },
+              {
+                "id": 1838,
+                "date": "2018-03-22T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "From a Big Band Web App to Serverless Bebop",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "This talk will take a real-world look at what makes serverless so jazzy. Via a case study from Mapbox, we\u2019ll see how to refactor a hard-to-maintain Node Express app into a collection of Lambda functions, and why we'd want to: lower bills, better code, and happier teams.",
+                "persons": [
+                  {
+                    "id": 993,
+                    "full_public_name": "Anjana Vakil",
+                    "abstract": "Anjana is Engineering Learning & Development Lead at Mapbox, a frequent speaker at tech events around the world and member of the Mozilla TechSpeakers, and an alumna of the Recurse Center and Outreachy.",
+                    "twitter_name": "AnjanaVakil",
+                    "avatar_path": "/system/avatars/993/large/AnjanaVakil-oreilly-1.jpg?1509509003"
+                  }
+                ]
+              },
+              {
+                "id": 1785,
+                "date": "2018-03-22T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Javascript as a compile target",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "This talk will detail how systems languages can be used to compile to JS and the benefits of doing so.",
+                "persons": [
+                  {
+                    "id": 970,
+                    "full_public_name": "Ken Wheeler",
+                    "abstract": "Director of Open Source at Formidable, Javascript meme & author of several popular open source libraries.",
+                    "twitter_name": "ken_wheeler",
+                    "avatar_path": "/system/avatars/970/large/1XXoEPHU_400x400.jpg?1509042577"
+                  }
+                ]
+              },
+              {
+                "id": 1416,
+                "date": "2018-03-22T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Building Facial Recognition Services with JavaScript",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "You may not know it, but facial recognition is already a part of our everyday lives. Wherever we go, we are being watched. Facial recognition is integrated with social media, security, gaming, and commerce. Facial recognition technology has the ability to revolutionize the world as we know it.",
+                "persons": [
+                  {
+                    "id": 513,
+                    "full_public_name": "Kesha Williams",
+                    "abstract": "Kesha Williams is a software engineer with over 20 years\u2019 experience specializing in full stack web application development using Java, Spring, Angular, and Amazon Web Services (AWS).  She's trained and mentored thousands of software developers in the US, Europe, and Asia while teaching Java at the university level. She did her summer internship with the National Security Agency (NSA); how cool is that? She most recently won the Ada Lovelace Award in Computer Engineering from Look Far and the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies and Artificial Intelligence (AI) can enhance restaurant operations and customer experiences. In her spare time, she leads the Georgia chapter of Technovation, speaks at technical conferences across the country, serves as a mentor with the New York Academy of Sciences, and conducts free \"Hour of Code\" workshops for children at her local library.",
+                    "twitter_name": "KeshaWillz",
+                    "avatar_path": "/system/avatars/513/large/10C.jpg?1512528835"
+                  }
+                ]
+              },
+              {
+                "id": 1729,
+                "date": "2018-03-22T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Boost Your Mobile Apps\u2019 Emotional Intelligence with Machine Learning and NativeScript",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "Your mobile apps need to respond better to your users\u2019 needs. Even if you have built a performant app with a great UI, you can improve it by leveraging new methods of adding machine learning to your apps. In this talk, you\u2019ll learn some basics of machine learning and how to integrate it into your mobile app, first with some clever APIs, and then with custom trained models using TensorFlow. Come learn how to send your apps back to school and level up their innate \u2018intelligence\u2019!",
+                "persons": [
+                  {
+                    "id": 932,
+                    "full_public_name": "Jen Looper",
+                    "abstract": "Jen Looper is a Senior Developer Advocate at Progress with over 15 years' experience as a web and mobile developer, specializing in creating cross-platform mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, machine learning and discovering new things every day. Visit her online at http://www.ladeezfirstmedia.com, or via Twitter @jenlooper.",
+                    "twitter_name": "jenlooper",
+                    "avatar_path": "/system/avatars/932/large/jlooper_sm.jpg?1507943638"
+                  }
+                ]
+              }
+            ],
+            "Design and UX (Bayou 1-2)": [
+              {
+                "id": 1695,
+                "date": "2018-03-22T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Why Nobody Fills Out My Forms Part 2: Electric Boogaloo",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "Still having difficulty encouraging people to fill out web forms to sign up for newsletters, apply for jobs, or complete their online shopping orders? Find out even more tips to help keep people from abandoning early, such as making form field widths more convenient, easing credit card entry, grouping related fields into sections to promote scanning, and styling buttons and controls so your webpage does not look like it was written in 2000.",
+                "persons": [
+                  {
+                    "id": 201,
+                    "full_public_name": "Andrew Malek",
+                    "abstract": "Andrew is a UI developer and designer at NCR, focusing on POS (point-of-sale) and clienteling solutions. He has two decades of development experience in languages such as JavaScript, Visual Basic, Python, and C, and will admit to having developed a content management solution with Delphi and Perl if backed into a corner.",
+                    "twitter_name": "malekontheweb",
+                    "avatar_path": "/system/avatars/201/large/twitter-photo.png?1463362661"
+                  }
+                ]
+              },
+              {
+                "id": 2067,
+                "date": "2018-03-22T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Working with Design",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "Step into the mind of a user experience designer and get a perspective on how to best utilize a UX designer\u2019s skills and creativity on your projects.",
+                "persons": [
+                  {
+                    "id": 1169,
+                    "full_public_name": "Katrina Tempero",
+                    "abstract": "Katrina has been at Google for two years as a design lead on Google News and recently became the design lead for News on Search. She has launched the news.google.com redesign, Newsstand and News in search features. Before joining Google, she spent two and a half years on the Yahoo search team. There she launched the desktop redesign of Yahoo Search on Mozilla, contributed to the core experience of mobile web and lead the design of search monetization across mobile, desktop and tablet. She also was an avid Yahoo Hack Day participant, resulting in 7 wins that lead to 4 patents.\r\n\r\n\r\nPrior to Yahoo she did UX for an innovation management software startup and ran her own web development consultancy for six years. She worked with a range of clients on varying projects that included websites, intranets, branding and mobile web apps. She got her start in 1999 at a small marketing company in Silicon Valley as a \u201cwebmaster\u201d.",
+                    "twitter_name": "",
+                    "avatar_path": "/system/avatars/1169/large/katrina.jpeg?1521496327"
+                  }
+                ]
+              },
+              {
+                "id": 1868,
+                "date": "2018-03-22T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Dockerize Your Development Environment",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "You will learn the basics of Docker, how to use it to develop and how to deploy your \u201cdevelopment\u201d environment as the production environment!",
+                "persons": [
+                  {
+                    "id": 591,
+                    "full_public_name": "Lee Brandt",
+                    "abstract": "Lee has been writing software for almost two decades in Javascript, C# and Objective-C mostly. He loves to learn new things and then show others what he's learned. ",
+                    "twitter_name": "leebrandt",
+                    "avatar_path": "/system/avatars/591/large/avatar-leebrandt.jpg?1497294738"
+                  }
+                ]
+              },
+              {
+                "id": 1424,
+                "date": "2018-03-22T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Environment Sanity Checking with Node",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "How many times have you pushed up your code just to have a team member or client grab latest and then *sad trombone*  \uf62d It just fails to work.\u00a0\r\nFinding the issue is always an unwelcomed stress, because it implies some grueling insecurity with your project. We need a better way. That\u2019s why we made free and open-source Solidarity.",
+                "persons": [
+                  {
+                    "id": 471,
+                    "full_public_name": "Gant Laborde",
+                    "abstract": "Inspirational technology strategist.  Tinkerer at heart, but with a passion to ship a quality product at the end.  Love leadership and teaching has driven me to many conferences worldwide.",
+                    "twitter_name": "gantlaborde",
+                    "avatar_path": "/system/avatars/471/large/gant-face.jpg?1484858603"
+                  }
+                ]
+              },
+              {
+                "id": 1825,
+                "date": "2018-03-22T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Setting Fire to Silos",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "The divide between design and development can be vast. Designers lob something over the wall for development without knowledge or perspective of technical limitations, and developers are left to sort out requirements and edge cases. No one is satisfied when designers' visions aren't implemented or developers are expected to explain why something can't be built. It doesn't have to be this way!",
+                "persons": [
+                  {
+                    "id": 992,
+                    "full_public_name": "Glynnis Ritchie",
+                    "abstract": "Glynnis is passionate about creative collaboration, interdisciplinary teams, and the spaces where elegant code and delightful experiences overlap. Previously, she led design on the EncoreUI Framework, a design system and component library for internal tools at Rackspace. Today she's the Creative Director and principal designer at Clio + Calliope, a design and development firm based in New Orleans.",
+                    "twitter_name": "glynnisritchie",
+                    "avatar_path": "/system/avatars/992/large/bio_sq.png?1511796064"
+                  }
+                ]
+              }
+            ],
+            "Web-Html-Css (Bayou 3-4)": [
+              {
+                "id": 1770,
+                "date": "2018-03-22T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Font Awesome - Never Build Icons Again",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Tired of having to make \"delete\", \"edit\", \"new\", \"save\", \"confirm\", and \"purchase\" icons for your clients? In 3 different sizes (desktop, tablet, mobile)? And new versions for each color scheme you use? Enter Font Awesome!  Font Awesome gives you scalable vector icons, that are totally customizable, all by just including a CSS file in your project.  It's free, compatible with current devices and browsers, easy to use and customize to your liking.  Font Awesome is compatible with Bootstrap, various other frameworks, screen readers, retina displays and cuts down the time you spend doing \"boilerplate\" work in PhotoShop for every project!",
+                "persons": [
+                  {
+                    "id": 960,
+                    "full_public_name": "Nolan Erck",
+                    "abstract": "Nolan Erck has been developing software for 19 years, working on a variety of projects from video games to intranets to and web and mobile apps big and small.  As a software consultant for the last 10 years, Nolan has worked on projects for CycleGear, Intuit, Hawaiian Electric Company, ZenDesk, Open Table, and others.  Nolan also manages the SacInteractive User Group, teaches classes on aspects of software development, and regularly gives presentations at conferences and user groups across the country. \r\n",
+                    "twitter_name": "southofshasta",
+                    "avatar_path": "/system/avatars/960/large/Headshotbw640x480.jpg?1512586073"
+                  }
+                ]
+              },
+              {
+                "id": 1775,
+                "date": "2018-03-22T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "From Bootstrap to CSS Grid",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Natalya Shelburne, front-end developer at the NYTimes, will share a presentation about the real world scenario of how she went go from Bootstrap to CSS Grid without breaking anything. There will be code examples, fun anecdotes, and a first-hand account of why there may be no excuses left \u2014 everyone can find a place to start using CSS Grid today.",
+                "persons": [
+                  {
+                    "id": 962,
+                    "full_public_name": "Natalya Shelburne",
+                    "abstract": "Front End Developer at The New York Times, fine artist, speaker, educator, illustrator, relentless optimist, and doer of good deeds.",
+                    "twitter_name": "@natalyathree",
+                    "avatar_path": "/system/avatars/962/large/natalya-shelburne.jpg?1514928628"
+                  }
+                ]
+              },
+              {
+                "id": 2028,
+                "date": "2018-03-22T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Vue.js - The Next Big Thing In JavaScript",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Vue.js is a small, simple JavaScript library for building applications that is rapidly growing in popularity. In a world where web development has become overly complicated, Vue.js just might save us all.",
+                "persons": [
+                  {
+                    "id": 630,
+                    "full_public_name": "Burke Holland",
+                    "abstract": "Burke Holland is a front-end developer living in Nashville, TN; the greatest city in the world.",
+                    "twitter_name": "burkeholland",
+                    "avatar_path": "/system/avatars/630/large/headshot-smaller.jpg?1496416699"
+                  }
+                ]
+              },
+              {
+                "id": 1434,
+                "date": "2018-03-22T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Block__Element--Magic:  CSS Modularity for the masses.",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Have you ever faced a code base worked on by more than a dozen developers, blankly staring at thousands of lines of CSS, not knowing where to begin? A solution to this is B.E.M., or Block Element Modifier. B.E.M. is a CSS architecture. It's a methodology. It's a naming convention. It is based off of Object Oriented CSS. This talk will focus on basic B.E.M. CSS architecture and how it can be the solution towards modularity and writing clean, well maintained code within a large organization.",
+                "persons": [
+                  {
+                    "id": 803,
+                    "full_public_name": "Chris DeMars",
+                    "abstract": "Chris DeMars is a UI developer first, UX architect always, working out of Detroit, Michigan. Chris is also an instructor, teacher assistant, and volunteer for the Ann Arbor and Detroit chapters of Girl Develop It. Chris loves coming up with solutions for enterprise applications, which include modular CSS architectures, performance, and advocating for Web accessibility. When he is not working on making the Web great and inclusive you can find him writing blog posts, watching horror movies, drinking the finest of beers, or in the woods of northern Michigan.\r\n",
+                    "twitter_name": "saltnburnem",
+                    "avatar_path": "/system/avatars/803/large/head-shot-2017.jpg?1512409407"
+                  }
+                ]
+              },
+              {
+                "id": 1834,
+                "date": "2018-03-22T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "00:50",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Real Life Service Workers",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Most discussions and example code for service workers describe how to cache assets for when your application is being accessed while the user is offline. That barely scratches the surface of what you can do with service workers. We need to talk about various caching strategies, communicating between your app and the service worker and taking advantage of the powerful background sync functionality to provide an amazing user experience.",
+                "persons": [
+                  {
+                    "id": 977,
+                    "full_public_name": "Simon MacDonald",
+                    "abstract": "Father, Software Engineer, Comic Enthusiast and Coffee Lover",
+                    "twitter_name": "macdonst",
+                    "avatar_path": "/system/avatars/977/large/headshot.jpg?1509309400"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "date": "2018-03-23",
+          "day_start": "2018-03-23T08:00:00-04:00",
+          "day_end": "2018-03-23T23:00:00-04:00",
+          "rooms": {
+            "Workshop": [],
+            "React (Orleans)": [
+              {
+                "id": 1561,
+                "date": "2018-03-23T09:00:00-04:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "History of the Web",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Cover the history of the web in a dynamic fashion. This talk goes over the founding of HTML, CSS, and Javascript by looking at primary sources, reviews the browser wars, and makes prediction based on past trends.\r\nIn order to truly conquer something, you must understand why it exists in the first place. Why is HTML so awkward for application development? Why does CSS seem like an afterthought? Why does Javascript feel so just...half assed? This talk examines the origins of the Web's foundational technologies in a historical context and presents a forecast of what we might hope to see in the future.",
+                "persons": [
+                  {
+                    "id": 478,
+                    "full_public_name": "George Mauer",
+                    "abstract": "George Mauer is a developer, writer, speaker, and teacher living in New Orleans.",
+                    "twitter_name": "@togakangaroo",
+                    "avatar_path": "/system/avatars/478/large/photo.jpg?1484328464"
+                  }
+                ]
+              },
+              {
+                "id": 1813,
+                "date": "2018-03-23T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Universal React Apps Using Next.js",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Every user\u2019s hardware is different, and processing speed can hinder user experience on client-side rendered React applications. Server-side rendering and code-splitting can drastically improve user experience by minimizing the work that the client has to do. It\u2019s easy to get lost in the lingo, so come learn what it all means and how to easily build universal React apps using the Next.js framework. We\u2019ll walk through the concepts and use code examples to cement your understanding. You\u2019ll get the most out of this session if you\u2019re comfortable with React and ES6 syntax.",
+                "persons": [
+                  {
+                    "id": 991,
+                    "full_public_name": "Sia Karamalegos",
+                    "abstract": "Sia Karamalegos is the founder and lead developer Clio + Calliope, a mobile and web design and development firm based in New Orleans. She has over 15 years of experience in technology, strategy, project management, and operations across multiple industries, especially high-tech and education. She also teaches and writes curriculum. Sia was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana.",
+                    "twitter_name": "thegreengreek",
+                    "avatar_path": "/system/avatars/991/large/headshot.gif?1509394752"
+                  }
+                ]
+              },
+              {
+                "id": 1835,
+                "date": "2018-03-23T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "00:40",
+                "room": "React (Orleans)",
+                "title": "More Than Just a Pretty API",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "We have APIs for almost everything these days but when we build APIs for our users are we explaining HOW to use them? Let's look at our API built using GraphQL and build out a user interface using ReactJS and Kendo UI components to help guide user's through using our API.",
+                "persons": [
+                  {
+                    "id": 450,
+                    "full_public_name": "Tara Z. Manicsic",
+                    "abstract": "Maker, Student, Teacher, Eater, Hiker and \uf60der of all \uf436s",
+                    "twitter_name": "@tzmanics",
+                    "avatar_path": "/system/avatars/450/large/TaraZManicsic.png?1511453351"
+                  }
+                ]
+              },
+              {
+                "id": 1853,
+                "date": "2018-03-23T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Tame the Async Redux Beast with redux-logic",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Keeping our Redux applications tidy can be difficult once we start adding business logic, especially asynchronous code. Where do we write it? How do we write it? And how does our code interact with Redux? Together, we\u2019ll answer these questions and more by exploring how redux-logic lets us \u201cbring our own code\u201d and integrate it in a structured, declarative way with Redux.",
+                "persons": [
+                  {
+                    "id": 490,
+                    "full_public_name": "Ray Gesualdo",
+                    "abstract": "Ray Gesualdo is a full-stack JavaScript developer, speaker and mentor from Atlanta, GA. He started his career in the e-learning development industry, working with web-adjacent processes and systems before moving into front end engineering. Currently, he leads the front-end and user experience development at 3Blades, a data science-focused startup. Ray loves working with client- and server-side JavaScript; experimenting with serverless architectures and functional programming; and teaching and equipping others in technology. ",
+                    "twitter_name": "raygesualdo",
+                    "avatar_path": "/system/avatars/490/large/II7xw5O__400x400.jpeg?1500909725"
+                  }
+                ]
+              },
+              {
+                "id": 1918,
+                "date": "2018-03-23T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Styled Components, SSR, and Theming",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "All you need to know to become hero of CSS-in-JS with `styled-components`. We will go through the new API, performance improvements, server side rendering with Next.js and the theming manager available with v2 of `styled-components`.",
+                "persons": [
+                  {
+                    "id": 1062,
+                    "full_public_name": "Kasia Jastrz\u0119bska",
+                    "abstract": "Frontend developer with over 6 years of experience around various frameworks and libs knowledge in my basket (such as React+Redux, Polymer, Ember, Backbone). Always eager to go deeper ;D",
+                    "twitter_name": "kejt_bw",
+                    "avatar_path": "/system/avatars/1062/large/IMG_0753.jpg?1510829856"
+                  }
+                ]
+              },
+              {
+                "id": 1854,
+                "date": "2018-03-23T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Rockin' the JAMstack with Gatsby",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Static site generators are one of the hottest trends right now in front-end development and for good reason. In a world of CMSes, databases, templating engines, and application servers, static sites provide significant benefits to developers, content creators, and consumers alike. Together, we'll explore these benefits while creating a static site using the popular Gatsby static site generator.",
+                "persons": [
+                  {
+                    "id": 490,
+                    "full_public_name": "Ray Gesualdo",
+                    "abstract": "Ray Gesualdo is a full-stack JavaScript developer, speaker and mentor from Atlanta, GA. He started his career in the e-learning development industry, working with web-adjacent processes and systems before moving into front end engineering. Currently, he leads the front-end and user experience development at 3Blades, a data science-focused startup. Ray loves working with client- and server-side JavaScript; experimenting with serverless architectures and functional programming; and teaching and equipping others in technology. ",
+                    "twitter_name": "raygesualdo",
+                    "avatar_path": "/system/avatars/490/large/II7xw5O__400x400.jpeg?1500909725"
+                  }
+                ]
+              },
+              {
+                "id": 1469,
+                "date": "2018-03-23T16:30:00-04:00",
+                "start": "16:30",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Leadership for the Reluctant Leader",
+                "track": "React (Orleans)",
+                "type": "lecture",
+                "abstract": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your family, workplace, community, and beyond. In this talk, I'll share a few candid stories of my career failures... I mean... learning opportunities. You'll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome.",
+                "persons": [
+                  {
+                    "id": 612,
+                    "full_public_name": "David Neal",
+                    "abstract": "David is a husband, father of 5 boys, software geek, musician, illustrator, and Microsoft MVP living in North GA. He runs on a high-octane mixture of caffeine and JavaScript, and is entirely made of bacon.",
+                    "twitter_name": "reverentgeek",
+                    "avatar_path": "/system/avatars/612/large/reverentgeek_avatar_v2.jpg?1518720485"
+                  }
+                ]
+              },
+              {
+                "id": 2072,
+                "date": "2018-03-23T17:30:00-04:00",
+                "start": "17:30",
+                "duration": "01:00",
+                "room": "React (Orleans)",
+                "title": "Conference after party!",
+                "track": null,
+                "type": "",
+                "abstract": "",
+                "persons": []
+              }
+            ],
+            "Angular (Mardi Gras)": [
+              {
+                "id": 2026,
+                "date": "2018-03-23T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Forming Angular Forms",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "Forming Angular Forms",
+                "persons": [
+                  {
+                    "id": 115,
+                    "full_public_name": "Raju Gandhi",
+                    "abstract": "I am a Software Craftsman with over a decade of experience building Web Applications and Enterprise Software and I love to build great software",
+                    "twitter_name": "looselytyped",
+                    "avatar_path": "/system/avatars/115/large/me2_400x400.png?1409064068"
+                  }
+                ]
+              },
+              {
+                "id": 1934,
+                "date": "2018-03-23T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Reactive Animations using Angular",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "How we can use Angular to achieve Reactive Animations. The overall idea is capturing multiple streams of events into one, and then emitting those values over to CSS creating animations. ",
+                "persons": [
+                  {
+                    "id": 480,
+                    "full_public_name": "Gerard Sans",
+                    "abstract": "Community leader. Google Developer Expert\r\n",
+                    "twitter_name": "@gerardsans",
+                    "avatar_path": "/system/avatars/480/large/gerardsans.jpg?1510698190"
+                  }
+                ]
+              },
+              {
+                "id": 1600,
+                "date": "2018-03-23T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Reactive Programming with Observables",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "With evolving JavaScript and Angular community, there is a need for a robust solution which can asynchronously handle multiple requests without clogging the incremental flow of the execution. Although, JavaScript offers Promises, Event Emitter or Callbacks to solve the very same purpose, but each has its drawbacks. To handle such asynchronous data streams, we need Reactive Programming. One of the popular feature that has gained a lot of traction in Angular community for handling asynchronous requests, events or data is \u2018Observables\u2019. Observables open up a continuous channel of communication in which multiple values of data can be emitted over time.\r\nIn this talk we will discuss about Observables, its types and how it is different than \u2018Promises\u2019. In addition, the real power of Observables is exhibited by its operators that allows transforming, combining, manipulating, and working with the sequences of items emitted. We will be discussing various operators using RxJS (Reactive Extension of JavaScript), popular library in Angular v2 or higher frameworks for composing asynchronous and event-based programs by using observable sequences.\r\n\r\n",
+                "persons": [
+                  {
+                    "id": 862,
+                    "full_public_name": "Purnima Nagpal",
+                    "abstract": "Purnima Nagpal is a web developer with Masters in Information Technology. She has many years of experience in full-stack and web development, working heavily with Angular 4+, Angular JS, Typescript, JQuery, JavaScript along with Java 8. She is a freelancer and an online trainer. She has also presented a technical paper at TechConn 2017, internal conference at her current company Liquidnet. She is also leading an initiative for 'Tech for Girls' promoting awareness among high school girls and women to get into a technical career. She is highly creative and passionate about front-end development and has written blogs on various topics.",
+                    "twitter_name": "@nagpal_purnima",
+                    "avatar_path": "/system/avatars/862/large/purnima.png?1506991081"
+                  }
+                ]
+              },
+              {
+                "id": 1935,
+                "date": "2018-03-23T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "State management on steroids with ngrx v4",
+                "track": "Angular (Mardi Gras)",
+                "type": "lecture",
+                "abstract": "In this talk, you will learn advanced state management using the latest ngrx suite v4.",
+                "persons": [
+                  {
+                    "id": 480,
+                    "full_public_name": "Gerard Sans",
+                    "abstract": "Community leader. Google Developer Expert\r\n",
+                    "twitter_name": "@gerardsans",
+                    "avatar_path": "/system/avatars/480/large/gerardsans.jpg?1510698190"
+                  }
+                ]
+              },
+              {
+                "id": 2100,
+                "date": "2018-03-23T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "Angular (Mardi Gras)",
+                "title": "Wicked Fast \u26a1 Mobile Web",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "Mobile has far outpaced desktop, especially in emerging markets. At the same time, the size of mobile apps has ballooned. Large applications fail to serve the majority of mobile users, who have low-powered devices and unreliable network connections. Progressive web apps can serve mobile users better. We\u2019ll show you how to make PWAs that download almost instantly and work offline while still providing the functionality of native apps. ",
+                "persons": [
+                  {
+                    "id": 377,
+                    "full_public_name": "Abraham Williams",
+                    "abstract": "An experienced developer, start-up founder, and international speaker, Abraham Williams brings a broad range of skills to his current role as a senior developer at Bendyworks. A top 1% contributor at Stack Overflow and an active member of Google Developer Groups, Abraham has been recognized by Google as a Developer Expert for his ability to identify technology problems and provide quality solutions in the community.",
+                    "twitter_name": "abraham",
+                    "avatar_path": "/system/avatars/377/large/KCDCportrait0200.JPG?1517255315"
+                  },
+                  {
+                    "id": 540,
+                    "full_public_name": "Pearl Latteier",
+                    "abstract": "Pearl Latteier is a software engineer at Bendyworks in Madison WI, a Google Developer Expert in web technologies, and co-organizer of Madison\u2019s Google Developer Group. She builds JavaScript applications for web and mobile, and she has spoken at conferences around the world on topics including Progressive Web Apps, Web Components, and Polymer. Long ago, Pearl earned a PhD from the University of Wisconsin-Madison, where for five years she taught courses in the Department of Communication Arts.",
+                    "twitter_name": "@pblatteier",
+                    "avatar_path": "/system/avatars/540/large/latteier.jpg?1517255238"
+                  }
+                ]
+              }
+            ],
+            "Core JS (Main Auditorium)": [
+              {
+                "id": 1615,
+                "date": "2018-03-23T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Serverless JavaScript OMG",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "Serverless is the new buzzword; which is what we needed - another buzzword. Serverless refers to new technologies that let us, as developers, reframe the way we think about building applications when we don\u2019t have to think about the \u201cserver\u201d part. Serverless doesn\u2019t mean \u201cno server\u201d; it just means you don\u2019t have to worry about that piece of your application anymore, and we\u2019ll take a look at why that is a beautiful thing for JavaScript developers.",
+                "persons": [
+                  {
+                    "id": 630,
+                    "full_public_name": "Burke Holland",
+                    "abstract": "Burke Holland is a front-end developer living in Nashville, TN; the greatest city in the world.",
+                    "twitter_name": "burkeholland",
+                    "avatar_path": "/system/avatars/630/large/headshot-smaller.jpg?1496416699"
+                  }
+                ]
+              },
+              {
+                "id": 1739,
+                "date": "2018-03-23T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "StencilJS and Universal Components",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "Building a component library is hard, but building for multiple frameworks is even harder. Thankfully StencilJS Solves this. Building on top of Web Components, StencilJS provides a platform for building simple, cross-framework components for everyone.",
+                "persons": [
+                  {
+                    "id": 439,
+                    "full_public_name": "Michael Hartington",
+                    "abstract": "A developer for the Ionic Framework, avid craft beer lover, and stumbling musician. ",
+                    "twitter_name": "mhartington",
+                    "avatar_path": "/system/avatars/439/large/mike-headshot-14.png?1481752576"
+                  }
+                ]
+              },
+              {
+                "id": 1832,
+                "date": "2018-03-23T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Component Driven Architectures: Managing State",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "Components have become a foundational and instrumental part of web application development. Modern frameworks have given us the ability to create components in a way that just makes sense. UI development has moved from imperatively describing our apps to a more declarative approach.\r\n\r\nIn this talk we will discuss what are components and why a modular approach to development is important. Components require state and data as properties to render; There are primarily two ways for state management local and external both; we will discuss during this talk. The combination of components, properties, and state really give way to component driven architectures making our UI\u2019s extremely powerful. \r\n",
+                "persons": [
+                  {
+                    "id": 469,
+                    "full_public_name": "Tirell Mckinnon",
+                    "abstract": "Tirell Mckinnon is a software engineer at Skookum located in the US and the state of NC. Tirell has a background in computer science, while his primary focus has been frontend development. Tirell strives to deeply understand software, he loves solving problems and exploring new technologies. Tirell has worked at various startups and enterprise companies during his tenure as a developer and is currently consulting with various companies to deliver tangible products to their users.  He believes in learning core JavaScript and delivering applications. He is a family man, code writer, avid learner, and a member of the Army National Guard effectively handling two jobs at once. Tirell also enjoys mountain biking whenever he gets the chance. ",
+                    "twitter_name": "@TirellMckinnon",
+                    "avatar_path": "/system/avatars/469/large/me.jpg?1493608910"
+                  }
+                ]
+              },
+              {
+                "id": 1815,
+                "date": "2018-03-23T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Front-End Performance Still Matters",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "Help! My app bundle is 5MB! My users are angry that my app is so slow! It\u2019s easy to forget that performance matters when we are under pressure to deliver features quickly. What things should we always do versus only do when performance is slow? What data should we use to inform our decisions? From code splitting, lazy loading, and tree shaking to image optimization and store architecture, come learn how you can deliver a better experience to your users with high-performing front-end apps. This talk uses Webpack and ES6 but is library-agnostic (React, Angular, Vue, etc.).",
+                "persons": [
+                  {
+                    "id": 991,
+                    "full_public_name": "Sia Karamalegos",
+                    "abstract": "Sia Karamalegos is the founder and lead developer Clio + Calliope, a mobile and web design and development firm based in New Orleans. She has over 15 years of experience in technology, strategy, project management, and operations across multiple industries, especially high-tech and education. She also teaches and writes curriculum. Sia was recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana.",
+                    "twitter_name": "thegreengreek",
+                    "avatar_path": "/system/avatars/991/large/headshot.gif?1509394752"
+                  }
+                ]
+              },
+              {
+                "id": 1837,
+                "date": "2018-03-23T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "Core JS (Main Auditorium)",
+                "title": "Refactoring for Progressive Web Apps",
+                "track": "Keynotes & Core JS (Main Auditorium)",
+                "type": "lecture",
+                "abstract": "This session will explore best practices in architecture and design patterns for progressive web apps (PWA).  We'll then examine common ways to refactor existing web apps to take advantage of these best practices, along with lessons learned from the PWA migration of our core application at SalesLoft.",
+                "persons": [
+                  {
+                    "id": 76,
+                    "full_public_name": "Erica Stanley",
+                    "abstract": "Erica Stanley is a software engineer, researcher and tinkerer. Always eager to explore the intersection of emerging technologies and social science, Erica has worked with various technologies at the heart of virtual, augmented and mixed reality for over 16 years.  She is also passionately working towards gender and multicultural inclusion in tech, via education and exposure to opportunities. Erica co-founded the Atlanta network of Women Who Code and sits on the advisory board of 100 Girls of Code.",
+                    "twitter_name": "ericastanley",
+                    "avatar_path": "/system/avatars/76/large/headshot_2013.png?1408127992"
+                  }
+                ]
+              }
+            ],
+            "Design and UX (Bayou 1-2)": [
+              {
+                "id": 1616,
+                "date": "2018-03-23T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "The end of \"Native\" as we know it",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "An updated look at what it is to create mobile apps with \"Native\" technologies and why we are thinking about things all wrong.\r\n",
+                "persons": [
+                  {
+                    "id": 416,
+                    "full_public_name": "Shawn Johnson",
+                    "abstract": "Lover of all things mobile. Founding Hero @ Mobile App Hero, Mobile Instructor @ Gerneral Assembly.   ",
+                    "twitter_name": "digitalsleep",
+                    "avatar_path": "/system/avatars/416/large/meinbowtie.JPG?1512871850"
+                  }
+                ]
+              },
+              {
+                "id": 1940,
+                "date": "2018-03-23T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "00:30",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Why does this work? When bad UX Converts",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "This is a talk about the bad designs we\u2019re sometimes forced to use, and how creativity and the willingness to rethink your preconceived notions about design can turn a terrible idea into a winner.",
+                "persons": [
+                  {
+                    "id": 584,
+                    "full_public_name": "Marisa Morby",
+                    "abstract": "Marisa Morby has a background in User Experience copywriting, and marketing. She specializes in digital optimization, user research, and user experience flow for web and mobile applications. ",
+                    "twitter_name": "@marisamorby",
+                    "avatar_path": "/system/avatars/584/large/Color_Headshot.jpg?1493736168"
+                  }
+                ]
+              },
+              {
+                "id": 1436,
+                "date": "2018-03-23T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Focusing on Focus",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "When we think of CSS and Accessibility, what comes to mind? Is it adding alt attributes to image tags? How about color contrast? Is :focus given that much thought since browser's style these by default? Often, focus outlines are turned off in CSS to meet non-inclusive design standards, but this causes problems for keyboard users. How can we make the web a more inclusive place while maintaining design intent?.",
+                "persons": [
+                  {
+                    "id": 803,
+                    "full_public_name": "Chris DeMars",
+                    "abstract": "Chris DeMars is a UI developer first, UX architect always, working out of Detroit, Michigan. Chris is also an instructor, teacher assistant, and volunteer for the Ann Arbor and Detroit chapters of Girl Develop It. Chris loves coming up with solutions for enterprise applications, which include modular CSS architectures, performance, and advocating for Web accessibility. When he is not working on making the Web great and inclusive you can find him writing blog posts, watching horror movies, drinking the finest of beers, or in the woods of northern Michigan.\r\n",
+                    "twitter_name": "saltnburnem",
+                    "avatar_path": "/system/avatars/803/large/head-shot-2017.jpg?1512409407"
+                  }
+                ]
+              },
+              {
+                "id": 1723,
+                "date": "2018-03-23T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Designing APIs with OpenAPI Spec",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "Let\u2019s explore how using OpenAPI Spec and Swagger tools can make building RESTful APIs even better, with an example given in Node.js.",
+                "persons": [
+                  {
+                    "id": 326,
+                    "full_public_name": "Adam Paxton",
+                    "abstract": "Builds mobile apps at Polanco Media in sunny South Florida.  Builds realtime location sharing platforms at Condesa.io.  ",
+                    "twitter_name": "adampax",
+                    "avatar_path": "/system/avatars/326/large/QGZ5Sc7F.jpeg?1468856594"
+                  }
+                ]
+              },
+              {
+                "id": 1898,
+                "date": "2018-03-23T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "Design and UX (Bayou 1-2)",
+                "title": "Rescuing Legacy UIs: How IBM Is Putting Performance First",
+                "track": "Design and UX (Bayou 1-2)",
+                "type": "lecture",
+                "abstract": "Imagine a codebase that loads Dojo, Polymer, jQuery, Angular, _and_ React. Now imagine that you're responsible for making it _fast_. This is the situation our team was up against on the IBM Cloud console.\r\n\r\nIn this talk, Rizchel will share how her team has improved perceived performance by over 30\u2a09 in some cases, and brought actual load times down by as much as 250% \u2014 using GraphQL, Service Workers, resource preloading, and more \u2014 all while shifting the front-end culture at IBM toward performance.",
+                "persons": [
+                  {
+                    "id": 914,
+                    "full_public_name": "Rizchel Dayao",
+                    "abstract": "Hi my name is Rizchel and I am a front end developer at IBM. I originally was a back end engineer but switched to front end because of my love for design and UX.",
+                    "twitter_name": "",
+                    "avatar_path": "/system/avatars/914/large/10986954_606600386141001_5249207887106945558_o.jpg?1510954050"
+                  }
+                ]
+              }
+            ],
+            "Web-Html-Css (Bayou 3-4)": [
+              {
+                "id": 1468,
+                "date": "2018-03-23T10:00:00-04:00",
+                "start": "10:00",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Cross-Platform Desktop Apps with Electron",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Would you like to leverage your web skills to build cross-platform desktop applications? Electron is an open-source solution designed to make building great desktop applications easy. In this talk, you will learn its features, how to quickly get started, and tips from my experience!",
+                "persons": [
+                  {
+                    "id": 612,
+                    "full_public_name": "David Neal",
+                    "abstract": "David is a husband, father of 5 boys, software geek, musician, illustrator, and Microsoft MVP living in North GA. He runs on a high-octane mixture of caffeine and JavaScript, and is entirely made of bacon.",
+                    "twitter_name": "reverentgeek",
+                    "avatar_path": "/system/avatars/612/large/reverentgeek_avatar_v2.jpg?1518720485"
+                  }
+                ]
+              },
+              {
+                "id": 1851,
+                "date": "2018-03-23T11:00:00-04:00",
+                "start": "11:00",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Docker: Development to Production",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Learn to build, test, and deploy faster using Docker, Docker Compose, and Docker Hub.",
+                "persons": [
+                  {
+                    "id": 505,
+                    "full_public_name": "Kelly J Andrews",
+                    "abstract": "Kelly J Andrews, is a developer advocate, currently working at Codeship.",
+                    "twitter_name": "kellyjandrews",
+                    "avatar_path": "/system/avatars/505/large/meandfinn.jpg?1490874608"
+                  }
+                ]
+              },
+              {
+                "id": 1754,
+                "date": "2018-03-23T13:00:00-04:00",
+                "start": "13:00",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Micro SPA Architecture",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Come learn how we have applied the techniques of Micro Service architecture to the front end. This talk covers our journey to a full-fledged MicroSPA solution, what we have learned, nuts and bolts, and general implementation strategies.",
+                "persons": [
+                  {
+                    "id": 952,
+                    "full_public_name": "Jessica Kennedy",
+                    "abstract": "Jessica is a senior software engineer at Inmar, inc. Specializing in front end architecture, specifically around css, she brings over 10 years of full stack experience to the table. Her current role involves working as part of a polyglot team of engineers working full-stack within an ever-evolving ecosystem of technologies.",
+                    "twitter_name": "mistersender",
+                    "avatar_path": "/system/avatars/952/large/Kennedy_Jessica_sm.jpg?1513015256"
+                  }
+                ]
+              },
+              {
+                "id": 1774,
+                "date": "2018-03-23T14:30:00-04:00",
+                "start": "14:30",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "Going Beyond \"Good Enough\" Documentation",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "\"Docs, or it didn't happen,\" I once heard! \"Your code is only as good as your documentation,\" too. Surely these aren't just adages. In fact, they're the difference between code that's good enough, and code that's so great everyone wants to use it! Learn some of the key ways you can stop hating documentation, and actually get really good at it.  ",
+                "persons": [
+                  {
+                    "id": 933,
+                    "full_public_name": "Hannah Joy Lehman",
+                    "abstract": "I am versatile nerd with experience that spans front-end development, back-end web development, team management, operations, quality assurance, and technical instruction. In my spare time I garden indoors, snuggle my dog, or can be found cooking or noshing somewhere in Raleigh.\r\n",
+                    "twitter_name": "_hannahjl",
+                    "avatar_path": "/system/avatars/933/large/round_hannah.jpg?1508695821"
+                  }
+                ]
+              },
+              {
+                "id": 1828,
+                "date": "2018-03-23T15:30:00-04:00",
+                "start": "15:30",
+                "duration": "01:00",
+                "room": "Web-Html-Css (Bayou 3-4)",
+                "title": "The Chains of Love: Lockfiles and You",
+                "track": "Web-Html-Css (Bayou 3-4)",
+                "type": "lecture",
+                "abstract": "Learn how npm5's new package-lock.json lockfile puts an end to nasty build-time surprises and \"works on my machine\" dependency hell.",
+                "persons": [
+                  {
+                    "id": 999,
+                    "full_public_name": "Adam Luikart",
+                    "abstract": "",
+                    "twitter_name": "adamesque",
+                    "avatar_path": "/system/avatars/999/large/Photo_on_2-9-17_at_1.32_PM.jpg?1509486047"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
