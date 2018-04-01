@@ -1,4 +1,4 @@
-# Modern JavaScrip Workshop
+# Modern JavaScript Workshop
 This workshop is designed to go over a small example of how to integrate modern JavaScript workflow into your everyday life without changing too much about how you operate today.  This is targeted towards people who write ECMAScript 3 (ES3), or as I like to refer to it as Internet Explorer friendly JavaScript.  ECMAScript versions are now up to ECMAScript 7 and 8 is being worked on.  Don't worry if you are thinking this won't work for you because you need Internet Explorer.  We will make sure we cover the tools you need so by the end you can write clean modern JavaScript with all of your favorite frameworks and it will be compatible in Internet Explorer.
 
 ## Before We Start
