@@ -13,12 +13,12 @@
   var settings = defaultOptions;
 
   var styles = {
-    card: "display: flex;flex-direction: column;margin: 10px;border: 1px solid black;padding: 10px;background-color: #DCDCDC",
-    sub_card: "display: flex;flex: 3;flex-direction: row;",
+    card: "display: flex;flex-direction: column;border: 1px solid black;margin: 10px;background-color: #DCDCDC;border-radius: 25px;cursor: pointer;",
+    sub_card: "display: flex;flex: 3;flex-direction: row;padding: 10px",
     title: "display: flex;flex: 4;",
     image: "width: 75;height: 75;border-radius: 50px;border: 1px solid black;",
-    img_wrapper: "display: flex;flex: 2;justify-content: flex-end",
-    name: "display: flex; flex: 1;"
+    img_wrapper: "display: flex;flex: 2;justify-content: flex-end;padding: 10px;",
+    name: "display: flex; flex: 1;padding: 10px;background-color: white;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;border-top: 1px solid black;"
   }
 
   jQuery.fn.card = function(options) {
