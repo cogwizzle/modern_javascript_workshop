@@ -14,7 +14,7 @@ In this section we are going to go through the initial isntall process of the pa
 1. The first step to completing this tutorial is checkout this git project.  This is going to be very easy and shouldn't require very much effort.  Running the command `git clone https://github.com/jfehrman/modern_javascript_workshop.git` with create a folder in the current directory named 'modern_javascript_workshop' that has our very simple web application.  
 2. Upon inspecting the direcotry you will notice that currently it has an index.html file, and a src/js directory for housing the JavaScript needed to make the page increment.  I know this isn't a revolutionary page, but hey like I said this is a trivial example to get your feet wet.
 3. The first thing we need to do is initialize our npm package manager configuration file.  It isn't hard.  Simply run the command `npm init` and follow the prompt and you will have created a file named package.json.  Wondering what the f*** is NPM?  NPM is a package manager.
-4. The next thing we are going to do is install a bunch of development dependencies.  I will explain what each of these packages is below but running the following command.  `npm install --save-dev webpack babel babel-loader babel-core babel-preset-es2015 webpack-dev-server`
+4. The next thing we are going to do is install a bunch of development dependencies.  I will explain what each of these packages is below but running the following command.  `npm install --save-dev webpack babel babel-loader babel-core babel-preset-es2015 webpack-dev-server webpack-cli`
 * webpack is our bundling and build software.
 * All of the 'babel' packages transpiles/converts most ES5/ES6 features back to ES3 equivalents.
 * webpack-dev-server is a small web server that allows us to view our application as we continue to work with it.
@@ -34,6 +34,7 @@ var BUILD_DIR = path.resolve(__dirname, 'dist');
 var APP_DIR = path.resolve(__dirname, 'src');
 
 var config = {
+  mode: 'development',
   // What I need to build and bundle.
   entry: APP_DIR + '/main.js',
   // Where do I put this stuff.
@@ -43,19 +44,24 @@ var config = {
   },
   // Tells it how to load different file extensions.
   module : {
-    loaders : [
+    rules: [
       {
-        test : /\.js?/,
-        include : APP_DIR,
-        loader : 'babel-loader'
-      },
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015']
+          }
+        }
+      }
     ]
   },
   // Create a webpack dev server config so we can see our application.
   devServer: {
     contentBase: path.join(__dirname, "/"),
     compress: true,
-    port: 8080 
+    port: 8080
   }
 };
 
@@ -64,21 +70,42 @@ module.exports = config;
 2. Next lets modify package.json and add some nifty commands to deploy our test server.  Add the following property to the JSON segment of package.json.
 ```
 "scripts": {
-  "start:dev": "webpack-dev-server"
+  "start:dev": "webpack-dev-server",
+  "build": "webpack --watch"
 }
 ```
 3.  Now that both of the files have been modified run the command `npm run start:dev`.  This will start a small web server inside of your command line window that builds and deploys your development test server.
+
+_Temporarily webpack-dev-server is broken with webpack 4.0.  For this reason you must also run the command `npm run build`._
 
 ## Ultra development
 In this section we will be making changes to the src directory so that we can make our app more streamlined.  It is already very small but we can make a few small improvements.
 
 1. Remove the jquery.min file from the src/js directory.
-2. Add the following line to the very top of your main.js file.  `import $ from 'jquery';`  This line will import the library from the previously installed jQuery package.
-3. Open index.html and remove the jquery import.
-4. Open index.html and alter the main.js import to instead piont to './dist/bundle.js'.
-5. Reload your page and marvel at how you got rid of a file import.
+2. Update the jquery.card.js file.
+* Add `import jQuery from 'jquery';` to the top of the jquery.card.js file.
+* Remove the onload function surrounding the remainder of the code.
+* Replace all `var` variable declarations with `const`.
+* Replace all `$` with `jQuery`.
+* Replace the function that starts on line 39 with `jQuery(card).click(event => alert(options.abstract));`.
+3. Update the main.js file.
+* Add the following to the top of the file.
+```
+import jQuery from 'jquery';
+jQuery.fn.card = require('./jquery.card');
 
-Hurray we did it.  You might be like all of that so I could get rid of a single import.  I agree in this case but applications are never this small.  You can do so much more than what I just showed...
+```
+* Update all `$` symbols to be `jQuery`.
+* Replace line 7 with `jQuery(() => {`.
+* Replace line 9 with `jQuery.get(json => {`.
+4. Update the script includes on index.html.
+* Remove all of the script tags.
+* Add the following script tag in the head of the file.
+```
+<script type='text/javascript' src='./dist/bundle.js'></script>
+```
+
+Hurray we did it.  You can do so much more than what I just showed...
 
 ## Overload Nightmare
 Here is a list of features that can also be done with Webpack and tools.
