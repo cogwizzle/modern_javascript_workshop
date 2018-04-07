@@ -5,6 +5,7 @@ var BUILD_DIR = path.resolve(__dirname, 'dist');
 var APP_DIR = path.resolve(__dirname, 'src/js');
 
 var config = {
+  mode: 'development',
   // What I need to build and bundle.
   entry: APP_DIR + '/main.js',
   // Where do I put this stuff.
@@ -31,7 +32,7 @@ var config = {
   devServer: {
     contentBase: path.join(__dirname, "/"),
     compress: true,
-    port: 8080 
+    port: 8080,
   }
 };
 

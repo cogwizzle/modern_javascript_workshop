@@ -1,9 +1,12 @@
+import jQuery from 'jquery';
+jQuery.fn.card = require('./jquery.card');
+
 /**
  * On ready function.
  */
-$(function() {
+jQuery(function() {
 
-  jQuery.get('./api/index.json', function(json) {
+  jQuery.get('./api/index.json', json => {
 
     var talks = Object.keys(json.schedule.conference.days[0].rooms);
 
