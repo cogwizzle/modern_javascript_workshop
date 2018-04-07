@@ -4,16 +4,16 @@
   "description": "This workshop is designed to go over a small example of how to integrate modern JavaScript workflow into your everyday life without changing too much about how you operate today.  This is targeted towards people who write ECMAScript 3 (ES3), or as I like to refer to it as Internet Explorer friendly JavaScript.  ECMAScript versions are now up to ECMAScript 7 and 8 is being worked on.  Don't worry if you are thinking this won't work for you because you need Internet Explorer.  We will make sure we cover the tools you need so by the end you can write clean modern JavaScript with all of your favorite frameworks and it will be compatible in Internet Explorer.",
   "main": "src/js/main.js",
   "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
-    "jquery": "^3.3.1",
-    "webpack": "^4.4.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.1"
-  },
-  "devDependencies": {
-    "webpack-cli": "^2.0.14"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
