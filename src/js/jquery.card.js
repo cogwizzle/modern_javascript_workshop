@@ -21,7 +21,7 @@ const styles = {
   name: "display: flex; flex: 1;padding: 10px;background-color: white;border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;border-top: 1px solid black;"
 }
 
-jQuery.fn.card = options => {
+jQuery.fn.card = function(options) {
   const template = [
     "<div class='card' style='" + styles.card + "'>",
     "\t<div class='sub_card' style='" + styles.sub_card + "'>",
