@@ -14,7 +14,7 @@ In this section we are going to go through the initial isntall process of the pa
 1. The first step to completing this tutorial is checkout this git project.  This is going to be very easy and shouldn't require very much effort.  Running the command `git clone https://github.com/jfehrman/modern_javascript_workshop.git` with create a folder in the current directory named 'modern_javascript_workshop' that has our very simple web application.  
 2. Upon inspecting the direcotry you will notice that currently it has an index.html file, and a src/js directory for housing the JavaScript needed to make the page increment.  I know this isn't a revolutionary page, but hey like I said this is a trivial example to get your feet wet.
 3. The first thing we need to do is initialize our npm package manager configuration file.  It isn't hard.  Simply run the command `npm init` and follow the prompt and you will have created a file named package.json.  Wondering what the f*** is NPM?  NPM is a package manager.
-4. The next thing we are going to do is install a bunch of development dependencies.  I will explain what each of these packages is below but running the following command.  `npm install --save-dev webpack babel babel-loader babel-core babel-preset-es2015 webpack-dev-server webpack-cli`
+4. The next thing we are going to do is install a bunch of development dependencies.  I will explain what each of these packages is below but running the following command.  `npm install --save-dev webpack babel babel-loader babel-core babel-preset-es2015 webpack-cli asdf`
 * webpack is our bundling and build software.
 * All of the 'babel' packages transpiles/converts most ES5/ES6 features back to ES3 equivalents.
 * webpack-dev-server is a small web server that allows us to view our application as we continue to work with it.
@@ -56,12 +56,6 @@ var config = {
         }
       }
     ]
-  },
-  // Create a webpack dev server config so we can see our application.
-  devServer: {
-    contentBase: path.join(__dirname, "/"),
-    compress: true,
-    port: 8080
   }
 };
 
@@ -70,7 +64,7 @@ module.exports = config;
 2. Next lets modify package.json and add some nifty commands to deploy our test server.  Add the following property to the JSON segment of package.json.
 ```
 "scripts": {
-  "start:dev": "webpack-dev-server",
+  "start:dev": "asdf -p 8080",
   "build": "webpack --watch"
 }
 ```
@@ -98,6 +92,7 @@ jQuery.fn.card = require('./jquery.card');
 * Update all `$` symbols to be `jQuery`.
 * Replace line 7 with `jQuery(() => {`.
 * Replace line 9 with `jQuery.get(json => {`.
+* Change the for loop to be a forEach helper.
 4. Update the script includes on index.html.
 * Remove all of the script tags.
 * Add the following script tag in the head of the file.
