@@ -16,7 +16,7 @@
     "webpack-cli": "^2.0.14"
   },
   "scripts": {
-    "start:dev": "webpack-dev-server"
+    "start:dev": "asdf -p 8080"
   },
   "repository": {
     "type": "git",

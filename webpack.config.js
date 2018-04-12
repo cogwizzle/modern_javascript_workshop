@@ -27,12 +27,6 @@ var config = {
         }
       }
     ]
-  },
-  // Create a webpack dev server config so we can see our application.
-  devServer: {
-    contentBase: path.join(__dirname, "/"),
-    compress: true,
-    port: 8080 
   }
 };
 
