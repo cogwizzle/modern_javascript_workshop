@@ -17,7 +17,7 @@ In this section we are going to go through the initial isntall process of the pa
 4. The next thing we are going to do is install a bunch of development dependencies.  I will explain what each of these packages is below but running the following command.  `npm install --save-dev webpack babel babel-loader babel-core babel-preset-es2015 webpack-cli asdf`
 * webpack is our bundling and build software.
 * All of the 'babel' packages transpiles/converts most ES5/ES6 features back to ES3 equivalents.
-* webpack-dev-server is a small web server that allows us to view our application as we continue to work with it.
+* asdf is a small web server that allows us to view our application as we continue to work with it.
 5. Now we will install our one application dependency.  Running the command `npm install --save jquery` will install the latest version of jQuery in your application.
 
 Great now we should have everything installed that we are going to need.  So in this section we installed all of the packages we need to make changes to our incrementor app.
@@ -68,9 +68,8 @@ module.exports = config;
   "build": "webpack --watch"
 }
 ```
-3.  Now that both of the files have been modified run the command `npm run start:dev`.  This will start a small web server inside of your command line window that builds and deploys your development test server.
-
-_Temporarily webpack-dev-server is broken with webpack 4.0.  For this reason you must also run the command `npm run build`._
+3. Now run the build command in a terminal window `npm run build`.
+4. Now that both of the files have been modified run the command `npm run start:dev`.  This will start a small web server inside of your command line window that builds and deploys your development test server.
 
 ## Ultra development
 In this section we will be making changes to the src directory so that we can make our app more streamlined.  It is already very small but we can make a few small improvements.
