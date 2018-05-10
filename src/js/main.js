@@ -8,11 +8,10 @@ jQuery(function() {
 
   jQuery.get('./api/index.json', json => {
 
-    var talks = Object.keys(json.schedule.conference.days[0].rooms);
+    var talks = json;
 
     for (var i = 0, length = talks.length; i < length; i++) {
-      var index = talks[i];
-      var talk = json.schedule.conference.days[0].rooms[index][0];
+      var talk = talks[i];
 
       jQuery('.anchor').card({
         "title": talk.title,
